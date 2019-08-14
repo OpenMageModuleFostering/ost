@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ost_Instagramslider>
+        <active>true</active>
+        <codePool>local</codePool>
+        </Ost_Instagramslider>
+    </modules>
+</config>

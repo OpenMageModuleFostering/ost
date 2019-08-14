@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+    <name>ost</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL">GNU</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This is responsive instagram slider.</summary>
+    <description>This is responsive instagram slider. This displays instagram images in a slider.</description>
+    <notes>Instagram slider configuration settings are available in System-&amp;gt;Configuration-&amp;gt;Instagram Slider&amp;#xD;&#xD;
+&amp;#xD;&#xD;
+Instagram slider status needs to be enabled in configuration settings to be visible at front end.&amp;#xD;&#xD;
+&amp;#xD;&#xD;
+Short code to display slider at any page is:&amp;#xD;&#xD;
+&amp;#xD;&#xD;
+{{block type="instagramslider/instagramslider" name="instagramslider" template="instagramslider/instagramslider.phtml"}}</notes>
+    <authors><author><name>Manish Mittal</name><user>OSTechnologies</user><email>manish@opensourcetechnologies.com</email></author></authors>
+    <date>2016-06-27</date>
+    <time>11:33:12</time>
+    <contents><target name="magelocal"><dir name="Ost"><dir name="Instagramslider"><dir name="Block"><file name="Instagramslider.php" hash="750386f493a7b94aa69963ee19526b36"/></dir><dir name="Helper"><file name="Data.php" hash="274151cd7b271ccb2ad5adec3ca67d20"/></dir><dir name="Model"><file name="Animationin.php" hash="2a72579a6a6f4b8451275656ffdde8aa"/><file name="Animationout.php" hash="9e5da3e7d4e842e5c991e67c18225007"/><file name="Dimension.php" hash="7a7794d290a6dfbc709828882e6c66d4"/><file name="Instagramslider.php" hash="55071b1f1ff13285ac1a96cd278dc085"/><file name="Instagramslider_model.php" hash="55071b1f1ff13285ac1a96cd278dc085"/></dir><dir name="controllers"><file name="IndexController.php" hash="8e5531f72d0301ad0fd1e29e8c2c6dfe"/></dir><dir name="etc"><file name="config.xml" hash="13bf6792edbb9b0cd67967461e178ac0"/><file name="system.xml" hash="531ae45d299294593a8efe47cd90469c"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ost_Instagramslider.xml" hash="58ffa91d5fcd16dc13af25f943c74650"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.2</max></php></required></dependencies>
+</package>
