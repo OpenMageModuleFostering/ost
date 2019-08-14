@@ -3,7 +3,8 @@
     <modules>
         <Ost_Instagramslider>
         <active>true</active>
-        <codePool>local</codePool>
+        <codePool>community</codePool>
+        <version>1.9.2</version>
         </Ost_Instagramslider>
     </modules>
 </config>
