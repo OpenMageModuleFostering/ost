@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ost",
+    "name": "OpenMageModuleFostering\/ost",
     "type": "magento-module",
     "license": "GNU",
     "homepage": "",
     "description": "This is responsive Instagram slider.",
     "authors": [
-    {
-        "name": "Manish Mittal",
-        "email": "manish@opensourcetechnologies.com"
-    }
-],
+        {
+            "name": "Manish Mittal",
+            "email": "manish@opensourcetechnologies.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
